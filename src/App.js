@@ -1,20 +1,20 @@
-import { useEffect } from 'react'
-import axios from 'axios'
+
 
 //! import component pages 
 import Home from './components/Home'
 import PageNavbar from './components/PageNavbar'
 import Footer from './components/Footer'
+import AllCharacters from './components/AllCharacters'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 
 const App = () => {
-  useEffect(() => {
-    const getData = async () => {
-      const { data } = await axios.get('http://hp-api.herokuapp.com/api/characters')
-      console.log(data)
-    }
-    getData()
-  })
+  // useEffect(() => {
+  //   const getData = async () => {
+  //     const { data } = await axios.get('http://hp-api.herokuapp.com/api/characters')
+  //     console.log(data)
+  //   }
+  //   getData()
+  // })
 
   return (
     <main>
@@ -23,6 +23,7 @@ const App = () => {
           <PageNavbar />
           <Routes>
             <Route path='/home' element={<Home />} />
+            <Route path='/allcharacters' element={<AllCharacters />} />
           </Routes>
           <Footer />
         </BrowserRouter>

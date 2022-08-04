@@ -15,9 +15,14 @@ $gold: #d4af37;
   font-weight: normal;
   font-style: normal;
 }
+
+body {
+  margin: 0;
+}
+
 .site-wrapper{
   border: 1px solid black;
-  height: 100vh;
+  min-height: 100vh;
   width: 100vw;
 }
 .navbar {
@@ -29,6 +34,7 @@ $gold: #d4af37;
     align-items: center;
     flex-wrap: nowrap;
     height: 10vh;
+    margin-inline: 10px;
   }
   .nav-link{
     margin-left: 5px;
@@ -57,13 +63,30 @@ $gold: #d4af37;
 .footer{
   border: 1px solid black;
   text-align: center;
-  position: fixed;
   bottom: 0;
   width: 100vw;
   margin-bottom: 0;
-
 }
 
+.profile-page{
+  width: 60%;
+  border: 2px solid pink;
+  margin: 0 auto;
+  margin-top: 120px;
+  margin-bottom: 120px;
+  img{
+
+  }
+  .row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .col-md-6{
+    width: 50%;
+    height: 100%;
+  }
+}
 // h1 {
 //   font-family: 'HP';
 //   font-size: 140px;
