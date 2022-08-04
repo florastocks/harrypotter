@@ -1,16 +1,32 @@
 import { useEffect } from 'react'
 import axios from 'axios'
 
+//! import component pages 
+import Home from './components/Home'
+import PageNavbar from './components/PageNavbar'
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
+
 const App = () => {
   useEffect(() => {
     const getData = async () => {
-      const { data } = await axios.get('/api/products/') // * <-- replace with your endpoint
+      const { data } = await axios.get('http://hp-api.herokuapp.com/api/characters')
       console.log(data)
     }
     getData()
   })
 
-  return <h1>Hello World</h1>
+  return (
+    <main>
+      <div className='site-wrapper'>
+        <BrowserRouter>
+          <PageNavbar />
+          <Routes>
+            <Route path='/home' element={<Home />} />
+          </Routes>
+        </BrowserRouter>
+      </div>
+    </main>
+  )
 }
 
 export default App

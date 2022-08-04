@@ -1,3 +1,50 @@
 * {
   box-sizing: border-box;
+
 }
+
+//! variables 
+$gold: #d4af37;
+
+@font-face {
+  font-family: 'HP';
+  src: url('./fonts/HarryP-MVZ6w.eot');
+  src: url('./fonts/HarryP.woff') format('woff'),
+    url('./fonts/HarryP.ttf') format('truetype'),
+    url('./fonts/HarryP.svg#HP') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+.site-wrapper{
+  border: 1px solid black;
+  height: 100vh;
+}
+.navbar {
+  border: 1px solid black;
+  .container{
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    height: 10vh;
+  }
+  .nav-link{
+    margin-left: 5px;
+    text-decoration: none;
+  }
+  .brand{
+    text-decoration: none;
+  }
+}
+
+// h1 {
+//   font-family: 'HP';
+//   font-size: 140px;
+//   color: 	$gold;
+// }
+// main {
+//   height: 100vh;
+//   background-image: url('../images/darkstorm.jpeg');
+//   background-repeat: no-repeat;
+// }

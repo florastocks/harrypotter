@@ -1,5 +1,16 @@
 //need to import the Link 
+const Home = () => {
 
+  return(
+    <main className="hero text-center">
+      <div className="hero-container">
+        <p>hello</p>
+      </div>
+    </main>
+
+  )
+}
+export default Home
 // create function and export it 
 // create a main with the classname of hero, and dic class of hero-container
 // create div container with <p> inside the description of the site inside

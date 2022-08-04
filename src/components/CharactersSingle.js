@@ -9,7 +9,7 @@
 //! Execution 
 // create a use effect with an async get data function inside
 // add a try catch and a variable of data with an await and 
-// axios get request from the api endpoint / the id  
+// axios get request from the api endpoint / the index  
 // add console.log into the catch to log any errors
 //? need to find an id 
 
