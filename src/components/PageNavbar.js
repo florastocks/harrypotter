@@ -8,7 +8,7 @@ const PageNavbar = () => {
   return (
     <Navbar bg='light' expand='md'>
       <Container>
-        <Navbar.Brand as={Link} to='/' className='brand'>Harry Potter</Navbar.Brand>
+        <Navbar.Brand as={Link} to='/home' className='brand'>Harry Potter</Navbar.Brand>
         <Navbar.Toggle aria-controls='basic-navbar-nav'/>
         <Navbar.Collapse id='basic-navbar-nav' className='justify-content-end'>
           <Nav.Link as={Link} to='/allcharacters'>All Characters</Nav.Link>
