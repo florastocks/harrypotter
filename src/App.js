@@ -8,6 +8,8 @@ import AllCharacters from './components/AllCharacters'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 
 const App = () => {
+
+
   // useEffect(() => {
   //   const getData = async () => {
   //     const { data } = await axios.get('http://hp-api.herokuapp.com/api/characters')
@@ -22,7 +24,7 @@ const App = () => {
         <BrowserRouter>
           <PageNavbar />
           <Routes>
-            <Route path='/home' element={<Home />} />
+            <Route path='/' element={<Home />} />
             <Route path='/allcharacters' element={<AllCharacters />} />
           </Routes>
           <Footer />
