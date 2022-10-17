@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/static/css/main.4cb8c4c9.css",
+    "main.js": "/static/js/main.b6692cf2.js",
+    "static/media/betterghosts.gif": "/static/media/betterghosts.797035df7b73555baa73.gif",
+    "static/media/moving-stairs.gif": "/static/media/moving-stairs.c7d02e24e1429fb8dd74.gif",
+    "static/media/harry-gif.gif": "/static/media/harry-gif.54c24d291cc9297a9d10.gif",
+    "static/media/HarryP.svg": "/static/media/HarryP.1891a49d3cbee4868bb5.svg",
+    "static/media/HarryP-MVZ6w.eot": "/static/media/HarryP-MVZ6w.2df76c14e07322aeede4.eot",
+    "static/media/HarryP.ttf": "/static/media/HarryP.b96765b1417899151ca4.ttf",
+    "static/media/HarryP.woff": "/static/media/HarryP.821a1bfbbc6668cdeb04.woff",
+    "index.html": "/index.html",
+    "main.4cb8c4c9.css.map": "/static/css/main.4cb8c4c9.css.map",
+    "main.b6692cf2.js.map": "/static/js/main.b6692cf2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4cb8c4c9.css",
+    "static/js/main.b6692cf2.js"
+  ]
+}

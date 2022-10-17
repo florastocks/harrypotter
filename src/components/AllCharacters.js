@@ -18,7 +18,7 @@ const AllCharacters = () => {
   useEffect(() => {
     const getData = async () => {
       try {
-        const { data } = await axios.get('http://hp-api.herokuapp.com/api/characters')
+        const { data } = await axios.get('/api/characters')
         setAllChar(data)
       } catch (error) {
         console.log(error)
